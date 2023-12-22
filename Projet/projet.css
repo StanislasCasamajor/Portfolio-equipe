@@ -1,0 +1,83 @@
+html
+
+body
+
+#title {
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+h2 {
+    margin-left: 12%;
+}
+
+#athle {
+    background-color: black;
+    height: 157px;
+}
+
+#kuriboh {
+    background-color: red;
+    height: 145px;
+    width: 579px;
+
+}
+
+#baby {
+    width: 290px;
+    background-color: aqua;
+    height: 290px;
+}
+
+#metal {
+    background-color: chartreuse;
+    width: 289px;
+    height: 290px;
+}
+
+#mr {
+    background-color: antiquewhite;
+    height: 290px;
+}
+
+#dofus {
+    background-color: brown;
+}
+
+#potion {
+    background-color: darkblue;
+}
+
+#epee {
+    height: 30px;
+    background-color: gray;
+}
+
+#vert {
+    
+    background-color: blueviolet;
+}
+
+
+.parent {
+    background-color: darkgreen;
+    margin-left: 12%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 1448px;
+    height: 752px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    #athle { grid-area: 1 / 1 / 2 / 6; }
+    #kuriboh { grid-area: 2 / 1 / 3 / 3; }
+    #baby { grid-area: 2 / 3 / 4 / 4; }
+    #metal { grid-area: 2 / 4 / 4 / 5; }
+    #mr { grid-area: 2 / 5 / 4 / 6; }
+    #dofus { grid-area: 3 / 1 / 4 / 3; }
+    #potion { grid-area: 4 / 1 / 5 / 3; }
+    #epee { grid-area: 4 / 3 / 5 / 5; }
+    #vert { grid-area: 4 / 5 / 5 / 6; }
