@@ -1,10 +1,10 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-html{
+
+html {
     background-color: black;
 }
 
@@ -22,53 +22,64 @@ html{
     height: 1080px;
     background: url(Images/gif/4NB4.gif) center center no-repeat fixed;
     background-size: cover;
-    filter: blur(20px); /* Ajustez la valeur de flou selon vos préférences */
-    z-index: -1; /* Place l'arrière-plan flou en dessous du contenu */
+    filter: blur(20px);
+    z-index: -1;
+    /* Place l'arrière-plan flou en dessous du contenu */
 }
- 
+
+
 nav {
     display: flex;
     justify-content: space-evenly;
     background-color: rgba(0, 0, 0, 0.322);
+
 }
-nav li,a{
+
+nav li,
+a {
     text-decoration: none;
     list-style: none;
     color: white;
     font-size: 1.5rem;
     padding: 20px;
 }
-.pageContainer{
+
+.pageContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
-.pageContainer h1{
-    font-size: 3em;
-    color: white;
-    font-weight: bold;
-}
-.pageContainer h2{
+
+.pageContainer h2 {
     font-size: 2em;
     color: rgb(175, 175, 175);
 }
 
-.profilPic{
-   width: 600px;
-   margin-top:60px; 
+.profilPic {
+    width: 600px;
+    margin-top: 60px;
 }
 
 /* JS CLASSLIST */
 
-.navOver{
+.navOver {
     background-color: black;
 }
 
-.aOver:hover{
+.aOver:hover {
     color: purple;
     transition: 300ms;
 }
 
 
+
+
+#animatedTitle {
+    margin: 10px;
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+}
