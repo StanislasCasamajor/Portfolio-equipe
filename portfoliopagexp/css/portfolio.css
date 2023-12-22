@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(4,6, 15 );
+    margin: auto;
+}
+.allcontain{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+   background-image: url(/image/R.png);
+    width: 100%;
+    height: 1080px;
+    
+}
+
+.containtitre{
+    width: 335px;
+    height: 110px;
+}
+
+
+.columncontain{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+   
+
+}
+
+.rowcontain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+
+}
+
+.txtexp{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    width: 495px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.pimgcontain{
+    display: flex;
+    align-items: center;
+    gap: 15%;
+
+}
+.larian{
+    display: flex;
+    width: 223px;
+    justify-content: center;
+    align-items: center;
+}
+.larianitem{
+    width: 134px;
+    height: 201px;
+}
+
+.logocontain{
+    background-color: rgb(31, 38, 49);
+    width: 292px;
+    height: 81px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.logoexp{
+    width: 60px;
+    height: 60px;
+}
+
