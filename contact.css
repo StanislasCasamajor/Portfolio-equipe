@@ -1,0 +1,63 @@
+body{
+    font-family: 'Roboto','sans-serif';
+    padding-top: 2%;
+    background-color: navajowhite;
+}
+
+.ImgTitre{
+    padding-left: 2%;
+}
+
+.BienCon{
+    /* background-color: aqua; */
+   margin-left: 6%;
+   font-size: large;
+}
+
+.Nomasu{
+    float: left;
+    margin-left: 6%;
+    margin-right: 5%;
+    width: 25%;
+}
+
+label{
+    font-weight: bold;
+    font-size: large;
+}
+
+button{
+    margin-left: 67%;
+    border-radius: 2.2rem;
+
+}
+
+.reseaux{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 6%;
+}
+
+form{
+    /* background-color: blueviolet; */
+    width: 100%;
+}
+
+input{
+    width: 80%;
+    height: 20px;
+}
+
+textarea{
+    width: 35%;
+}
+
+#git{
+    background-color: black;
+}
+
+.textlab{
+    padding-top: 1%;
+}
