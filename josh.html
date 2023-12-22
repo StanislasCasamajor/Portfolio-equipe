@@ -6,6 +6,29 @@
     <title>Portfolio</title>
 </head>
 <body>
-    
+    <h1>Contact</h1>
+    <div class="BienCon">
+        <p>Bienvenue,<br>
+            si tu as bessoins de mes services pour l’un de tes projets, je t’invite à me  joindre en renseignant les champs du dessous.<br>
+            Si  tu souhaites en savoir plus sur ce que je fais tu peux cliquer sur les icones des differents réseaux plus bas.</p>
+    </div>
+    <form action="msg" method="post">
+        <div class="Nomasu">
+        <label for="Nom">Nom</label><br>
+        <input type="text" id="Nom"><br>
+        <label for="Mail">Mail</label><br>
+        <input type="email" name="Mail" id="Mail">
+        <label for="Sujet">Sujet</label><br>
+        <input type="text"><br>
+    </div>
+        <textarea name="Message" id="Msg" cols="50" rows="30"></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+    <div class="reseaux">
+        <img src="/Images/logo/Instagram.png" alt="Insta">
+        <img src="/Images/logo/Facebook.png" alt="Facebook">
+        <img src="/Images/logo/linkedin.png" alt="Linkedin">
+        <img src="/Images/logo/Github.png" alt="Github">
+    </div>
 </body>
 </html>
