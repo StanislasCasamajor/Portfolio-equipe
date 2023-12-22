@@ -1,0 +1,49 @@
+html 
+
+
+
+body 
+
+
+
+#title {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.image {
+    display: flex;
+    margin-right: 5%;
+    width: 150px;
+    flex-wrap: wrap;
+    padding-right: 150px;
+    
+}
+
+#text {
+    margin-left: 10%;
+    margin-right: 20%;
+    font-size: 19px;
+}
+
+#bang {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#bleu {
+    padding-left: 16px;
+}
+
+#orange {
+    padding-left: 10px;
+}
+
+#jaune {
+    padding-left: 9px;
+}
