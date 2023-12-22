@@ -83,3 +83,21 @@ a {
     overflow: hidden;
     border-right: 2px solid #000;
 }
+
+#animatedTitle{
+    animation: 1s ease pulse;
+    border-right: 1px solid white;
+}
+
+
+@keyframes pulse {
+    /* 0%, 49% {
+      border-right: 1px solid transparent;
+    }
+    50%, 99% {
+        border-right: 1px solid white;
+    }
+    100%{
+        border-right: 1px solid transparent;
+    } */
+  }
