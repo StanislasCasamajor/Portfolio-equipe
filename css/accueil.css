@@ -1,3 +1,4 @@
+/* CSS HOME */
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +7,13 @@
 
 html {
     background-color: black;
+    scroll-behavior: smooth;
 }
 
 /* ca c'est pour la home page */
 .backGround {
     position: relative;
+    margin-bottom: 217px;
 }
 
 .backGround::before {
@@ -102,3 +105,259 @@ a {
         border-right: 1px solid transparent;
     } */
   }
+
+  /* CSSABOUTME */
+.containabout{
+    margin-bottom: 600px;
+
+}
+  #title {
+    background-color: aqua;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.image {
+    display: flex;
+    width: 150px;
+    flex-wrap: wrap;
+    padding-right: 150px;
+    
+}
+
+#text {
+    color: white;
+    font-size: 19px;
+}
+
+#bang {
+   
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#bleu {
+    padding-left: 16px;
+}
+
+#orange {
+    padding-left: 10px;
+}
+
+#jaune {
+    padding-left: 9px;
+}
+
+/* CSSEXPERIENCE */
+
+.allcontain{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+   background-image: url(/image/R.png);
+    width: 100%;
+    height: 1080px;
+    
+}
+
+.containtitre{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 335px;
+    height: 110px;
+}
+
+
+.columncontain{
+    background-color: blueviolet;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+   width: 100%;
+
+}
+
+.rowcontain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+
+}
+
+.txtexp{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    width: 495px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.pimgcontain{
+    display: flex;
+    align-items: center;
+    gap: 15%;
+
+}
+.larian{
+    display: flex;
+    width: 223px;
+    justify-content: center;
+    align-items: center;
+}
+.larianitem{
+    width: 134px;
+    height: 201px;
+}
+
+.logocontain{
+    background-color: rgb(31, 38, 49);
+    width: 292px;
+    height: 81px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.logoexp{
+    width: 60px;
+    height: 60px;
+}
+
+/* CSSPROJET */
+.containprojet{
+    margin-bottom: 50px ;
+}
+
+
+h2 {
+    color: white;
+    display: flex;
+    
+}
+
+.parent {
+    background-color: white;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    }
+
+    .fliprojet {
+        perspective: 1000px;
+        width: 15%;
+        height: 500px;
+        position: relative;
+      }
+    
+      .fliprojet .interieur {
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: transform 0.5s;
+      }
+    
+      .fliprojet:hover .interieur {
+        transform: rotateY(180deg);
+      }
+    
+      .fliprojet .devant,
+      .fliprojet .derriere {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        border-radius: 5%;
+      }
+    
+      .fliprojet .derriere {
+        transform: rotateY(180deg);
+      }
+.devant{
+    background-color: aqua;
+}
+.derriere{
+    background-color: blueviolet;
+}
+
+
+/* CSSCONTACT */
+.containcontact{
+    height: 1080px;
+    color: white;
+}
+.ImgTitre{
+    padding-left: 2%;
+}
+
+.BienCon{
+    /* background-color: aqua; */
+    padding-left: 10%;
+   font-size: large;
+   font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.Nomasu{
+    float: left;
+    margin-left: 6%;
+    margin-right: 5%;
+    width: 25%;
+}
+
+label{
+    font-weight: bold;
+    font-size: large;
+}
+
+button{
+    margin-left: 67%;
+    border-radius: 2.2rem;
+
+}
+
+.reseaux{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 6%;
+}
+
+form{
+    /* background-color: blueviolet; */
+    width: 100%;
+}
+
+input{
+    width: 80%;
+    height: 20px;
+}
+
+textarea{
+    width: 35%;
+}
+
+#git{
+    background-color: black;
+}
+
+.textlab{
+    padding-top: 1%;
+}
