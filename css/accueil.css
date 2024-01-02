@@ -114,41 +114,71 @@ a {
   /* CSSABOUTME */
 
 .containabout{
+ 
     margin-bottom: 600px;
+    gap: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
 
 }
   #title {
-    background-color: aqua;
+
   padding-top: 20px;
   padding-left: 20px;
 }
 
 .image {
+
     display: flex;
-    width: 150px;
     flex-wrap: wrap;
-    padding-right: 150px;
+    gap: 15%;
+    justify-content: center;
     
 }
 
 #text {
+    padding-left: 7%;
     color: white;
     font-size: 19px;
+    width: 718px;
+    font-size: large;
+   font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 #bang {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
    
+   
+
 
 }
 
 .logo {
+    background-color: rgba(38, 44, 54, 0.7);
     display: flex;
     flex-direction: column;
+    height: 300px;
+    margin-right: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    gap: 10%;
+    border-radius: 5%;
     
 }
-
+.imgabout{
+}
 #bleu {
     padding-left: 16px;
+    margin-bottom: 30px;
+    
 }
 
 #orange {
@@ -181,7 +211,6 @@ a {
 
 
 .columncontain{
-    background-color: blueviolet;
     height: 95%;
     display: flex;
     flex-direction: column;
@@ -244,17 +273,21 @@ a {
 /* CSSPROJET */
 .containprojet{
     margin-bottom: 50px ;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
 }
 
 
 h2 {
     color: white;
     display: flex;
-    
+    padding-left: 7%;
+
 }
 
 .parent {
-    background-color: white;
     height: 700px;
     display: flex;
     justify-content: space-evenly;
@@ -294,61 +327,110 @@ h2 {
         transform: rotateY(180deg);
       }
 .devant{
-    background-color: aqua;
+
 }
 .derriere{
     background-color: blueviolet;
 }
-
+#pr1 .devant{
+    background-image: url(/Images/chat\ 1.jpg);
+    background-size: contain;
+}
+#pr2 .devant{
+    background-image: url(/Images/chat2.jpg);
+    background-size: contain;
+}
+#pr3 .devant{
+    background-image: url(/Images/chat3.jpg);
+    background-size: contain;
+}
+#pr4 .devant{
+    background-image: url(/Images/chat\ 4.jpg);
+    background-size: contain;
+}
 
 /* CSSCONTACT */
 .containcontact{
-    height: 1080px;
+    height: 970px;
     color: white;
+    display: flex;
+    flex-direction: column;
+ 
+    gap: 7%;
 }
 .ImgTitre{
-    padding-left: 2%;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .BienCon{
     /* background-color: aqua; */
-    padding-left: 10%;
+    padding-left: 7%;
    font-size: large;
    font-family: 'Roboto', sans-serif;
     color: white;
     font-weight: bold;
     font-size: 24px;
+    width: 80%;
 }
 
 .Nomasu{
-    float: left;
-    margin-left: 6%;
-    margin-right: 5%;
-    width: 25%;
+   display: flex;
+   flex-direction: column;
+    width: 30%;
+    height: 400px;
+
+    padding-left: 7%;
+    justify-content: center;
+}
+.renseignement{
+    height: 40px;
+}
+.textlab{
+ 
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   padding-top: 1.5%;
+}
+
+#Msg{
+
+    height: 250px;
+    width: 100%;
 }
 
 label{
+ 
     font-weight: bold;
     font-size: large;
 }
-
+.bouton{
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
 button{
-    margin-left: 67%;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+     font-weight: bold;
     border-radius: 2.2rem;
+    width: 20%;
+    height: 40px;
 
 }
 
 .reseaux{
-    width: 40%;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-left: 6%;
+    padding-left: 7%;
 }
 
 form{
-    /* background-color: blueviolet; */
+
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 input{
@@ -362,8 +444,4 @@ textarea{
 
 #git{
     background-color: black;
-}
-
-.textlab{
-    padding-top: 1%;
 }
