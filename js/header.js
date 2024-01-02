@@ -1,10 +1,25 @@
-// let header = document.querySelector("#header");
-// header.addEventListener("mouseover", () => {
-//     header.classList.add("navOver")
-// });
-// header.addEventListener("mouseout", () => {
-//     header.classList.remove("navOver")
-// });
+let header = document.querySelector("#header");
+header.addEventListener("mouseover", () => {
+    header.classList.add("navOver")
+});
+header.addEventListener("mouseout", () => {
+    header.classList.remove("navOver")
+});
+
+
+// -----------PHOTO DE PROFIL CHANGE MOUSEOVER-----------
+
+const profilPic = document.getElementById('pp');
+const initialSrc = "./Images/julien_pp_3d.png"
+
+profilPic.addEventListener("mouseover", () => {
+  profilPic.src = "./Images/0020.png"
+});
+
+profilPic.addEventListener("mouseout", () => {
+  profilPic.src = initialSrc
+});
+
 
 // // -------------TEXT APPARAIT FUR ET A MESURE----------
 
