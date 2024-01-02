@@ -109,52 +109,6 @@ a {
     } */
   }
 
-  /* CSSABOUTME */
-.containabout{
-    margin-bottom: 600px;
-
-}
-  #title {
-    background-color: aqua;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-.image {
-    display: flex;
-    width: 150px;
-    flex-wrap: wrap;
-    padding-right: 150px;
-    
-}
-
-#text {
-    color: white;
-    font-size: 19px;
-}
-
-#bang {
-   
-
-}
-
-.logo {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-#bleu {
-    padding-left: 16px;
-}
-
-#orange {
-    padding-left: 10px;
-}
-
-#jaune {
-    padding-left: 9px;
-}
 
 /* CSSEXPERIENCE */
 
@@ -363,4 +317,54 @@ textarea{
 
 .textlab{
     padding-top: 1%;
+}
+
+/* CSS About Me */
+
+#title {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.image {
+    display: flex;
+    margin-right: 5%;
+    width: 150px;
+    flex-wrap: wrap;
+    padding-right: 150px;
+    
+}
+
+#text {
+    color: white;
+    margin-left: 10%;
+    margin-right: 20%;
+    font-size: 19px;
+}
+
+#bang {
+    display: flex;
+}
+
+.containabout{
+    margin-bottom: 600px;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#bleu {
+    padding-left: 16px;
+}
+
+#orange {
+    padding-left: 10px;
+}
+
+#jaune {
+    padding-left: 9px;
 }
