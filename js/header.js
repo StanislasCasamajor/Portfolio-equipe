@@ -26,18 +26,37 @@ const navbar = document.getElementById('navbar');
 let prevScrollPos = window.scrollY || document.documentElement.scrollTop;
 
 window.addEventListener('scroll', () => {
-
   const currentScrollPos = window.scrollY || document.documentElement.scrollTop;
 
   if (prevScrollPos > currentScrollPos) {
-    navbar.style.top = '0';
+    // Scrolling up, show the navbar
+    navbar.style.opacity = '1';
   } else {
-    navbar.style.top = '-100px';
+    // Scrolling down, hide the navbar
+    navbar.style.opacity = '0';
   }
 
   prevScrollPos = currentScrollPos;
 });
 
+// Set initial opacity
+navbar.style.opacity = '1';
+
+// Add a transition effect for a smooth fade
+navbar.style.transition = 'opacity 0.5s ease-in-out';
+navbar.addEventListener("mouseover", function () {
+  navbar.style.opacity = '1';
+});
+
+navbar.addEventListener("mouseout", function () {
+  navbar.style.opacity = '0';
+});
+
+// Set initial opacity
+navbar.style.opacity = '0';
+
+// Add a transition effect for a smooth fade
+navbar.style.transition = 'opacity 0.5s ease-in-out';
 // // -------------TEXT APPARAIT FUR ET A MESURE----------
 
 // const titleElement = document.getElementById('animatedTitle');
