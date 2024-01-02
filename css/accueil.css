@@ -111,84 +111,8 @@ a {
 
 
 
-<<<<<<< HEAD
-=======
-  /* CSSABOUTME */
-
-.containabout{
-background-image: url(/Images/fond-developpement-web-violet_76964-167.webp);
-    gap: 20%;
-    display: flex;
-    flex-direction: column;
-    height: 970px;
-}
-  #title {
-
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-.image {
-
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15%;
-    justify-content: center;
-    
-}
-
-#text {
-    padding-left: 7%;
-    color: white;
-    font-size: 19px;
-    width: 718px;
-    font-size: large;
-   font-family: 'Roboto', sans-serif;
-    color: white;
-    font-weight: bold;
-    font-size: 24px;
-}
-
-#bang {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   
-   
 
 
-}
-
-.logo {
-    background-color: rgba(38, 44, 54, 0.7);
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    margin-right: 225px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    gap: 10%;
-    border-radius: 5%;
-    
-}
-.imgabout{
-}
-#bleu {
-    padding-left: 16px;
-    margin-bottom: 30px;
-    
-}
-
-#orange {
-    padding-left: 10px;
-}
-
-#jaune {
-    padding-left: 9px;
-}
->>>>>>> aba045e9a32fd7f5b0911523779403d453e750b4
 
 /* CSSEXPERIENCE */
 
@@ -326,13 +250,12 @@ h2 {
       .fliprojet .derriere {
         transform: rotateY(180deg);
       }
-.devant{
 
-}
 .derriere{
     background-color: blueviolet;
 }
 #pr1 .devant{
+
     background-image: url(/Images/chat\ 1.jpg);
     background-size: contain;
 }
@@ -445,11 +368,11 @@ textarea{
 #git{
     background-color: black;
 }
-<<<<<<< HEAD
 
 .textlab{
     padding-top: 1%;
 }
+
 
 /* CSS About Me */
 
@@ -464,7 +387,7 @@ textarea{
     width: 150px;
     flex-wrap: wrap;
     padding-right: 150px;
-    
+
 }
 
 #text {
@@ -486,7 +409,7 @@ textarea{
 .logo {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 #bleu {
@@ -500,5 +423,3 @@ textarea{
 #jaune {
     padding-left: 9px;
 }
-=======
->>>>>>> aba045e9a32fd7f5b0911523779403d453e750b4
