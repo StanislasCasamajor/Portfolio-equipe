@@ -20,6 +20,23 @@ profilPic.addEventListener("mouseout", () => {
   profilPic.src = initialSrc
 });
 
+// -----------NAV BAR-----------
+
+const navbar = document.getElementById('navbar');
+let prevScrollPos = window.scrollY || document.documentElement.scrollTop;
+
+window.addEventListener('scroll', () => {
+
+  const currentScrollPos = window.scrollY || document.documentElement.scrollTop;
+
+  if (prevScrollPos > currentScrollPos) {
+    navbar.style.top = '0';
+  } else {
+    navbar.style.top = '-100px';
+  }
+
+  prevScrollPos = currentScrollPos;
+});
 
 // // -------------TEXT APPARAIT FUR ET A MESURE----------
 
