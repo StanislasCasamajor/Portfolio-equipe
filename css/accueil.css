@@ -57,8 +57,10 @@ a {
 }
 
 .pageContainer h2 {
+    padding: 0px;
     font-size: 2em;
     color: rgb(175, 175, 175);
+
 }
 
 .profilPic {
@@ -109,7 +111,58 @@ a {
     } */
   /* } */ 
 
+/* CSS About Me */
 
+#title {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.image {
+    display: flex;
+    margin-right: 5%;
+    width: 150px;
+    flex-wrap: wrap;
+    padding-right: 150px;
+
+}
+
+#text {
+    color: white;
+    margin-left: 10%;
+    margin-right: 20%;
+    font-size: 19px;
+}
+
+#bang {
+    display: flex;
+}
+
+.containabout{
+    height: 970px;
+    background-image: url(/Portfolio-equipe/Images/fond-developpement-web-violet_76964-167.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#bleu {
+    padding-left: 16px;
+}
+
+#orange {
+    padding-left: 10px;
+}
+
+#jaune {
+    padding-left: 9px;
+}
 
 
 
@@ -117,7 +170,7 @@ a {
 /* CSSEXPERIENCE */
 
 .allcontain{
-    background-image: url(/Images/R.png);
+    background-image: url(/Portfolio-equipe/Images/R.png);
     display: flex;
     flex-direction: column;
     gap: 90px;
@@ -195,8 +248,9 @@ a {
 }
 
 /* CSSPROJET */
+
 .containprojet{
-    background-image: url(/Images/chat\ 4.jpg);
+    background-image: url(/Portfolio-equipe/Images/chat4.jpg);
     height: 970px;
     display: flex;
     flex-direction: column;
@@ -256,25 +310,25 @@ h2 {
 }
 #pr1 .devant{
 
-    background-image: url(/Images/chat\ 1.jpg);
+    background-image: url(/Portfolio-equipe/Images/chat1.jpg);
     background-size: contain;
 }
 #pr2 .devant{
-    background-image: url(/Images/chat2.jpg);
+    background-image: url(/Portfolio-equipe/Images/chat2.jpg);
     background-size: contain;
 }
 #pr3 .devant{
-    background-image: url(/Images/chat3.jpg);
+    background-image: url(/Portfolio-equipe/Images/chat3.jpg);
     background-size: contain;
 }
 #pr4 .devant{
-    background-image: url(/Images/chat\ 4.jpg);
+    background-image: url(/Portfolio-equipe/Images/chat4.jpg);
     background-size: contain;
 }
 
 /* CSSCONTACT */
 .containcontact{
-    background-image: url(/Images/Technologies_web-scaled-e1622616972782.jpg);
+    background-image: url(/Portfolio-equipe/Images/Technologies_web-scaled-e1622616972782.jpg);
     height: 970px;
     color: white;
     display: flex;
@@ -374,52 +428,3 @@ textarea{
 }
 
 
-/* CSS About Me */
-
-#title {
-    margin-top: 5%;
-    margin-left: 5%;
-}
-
-.image {
-    display: flex;
-    margin-right: 5%;
-    width: 150px;
-    flex-wrap: wrap;
-    padding-right: 150px;
-
-}
-
-#text {
-    color: white;
-    margin-left: 10%;
-    margin-right: 20%;
-    font-size: 19px;
-}
-
-#bang {
-    display: flex;
-}
-
-.containabout{
-    margin-bottom: 600px;
-
-}
-
-.logo {
-    display: flex;
-    flex-direction: column;
-
-}
-
-#bleu {
-    padding-left: 16px;
-}
-
-#orange {
-    padding-left: 10px;
-}
-
-#jaune {
-    padding-left: 9px;
-}
