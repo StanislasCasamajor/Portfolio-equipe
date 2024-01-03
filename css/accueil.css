@@ -148,7 +148,7 @@ a {
 
 .containabout{
     height: 970px;
-    background-image: url(/Images/fond-developpement-web-violet_76964-167.webp);
+    background-image: url(/Images/backgroundexperience.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -271,7 +271,9 @@ a {
 /* CSSPROJET */
 
 .containprojet{
-    background-image: url(/Images/chat4.jpg);
+    background-image: url(/Images/abstrait-design-low-poly.webp);
+    background-size: cover;
+ 
     height: 970px;
     display: flex;
     flex-direction: column;
@@ -283,6 +285,7 @@ h2 {
     color: white;
     display: flex;
     padding-left: 7%;
+
 
 }
 
@@ -326,30 +329,44 @@ h2 {
         transform: rotateY(180deg);
       }
 
-.derriere{
-    background-color: blueviolet;
+#pr1 .derriere{
+    background-image: url(/Images/chatmelon.webp);
+    background-size: 310px 500px;
+}
+#pr2 .derriere{
+    background-image: url(/Images/stanislas.webp);
+    background-size: 310px 500px;
+}
+#pr3 .derriere{
+    background-image: url(/Images/chatmelon.webp);
+    background-size: 310px 500px;
+}
+#pr4 .derriere{
+    background-image: url(/Images/chatmelon.webp);
+    background-size: 310px 500px;
 }
 #pr1 .devant{
 
-    background-image: url(/Images/chat1.jpg);
-    background-size: contain;
+    background-image: url(/Images/DOFUSTURQUOISEOK.png);
+    background-size: 310px 500px;
 }
 #pr2 .devant{
-    background-image: url(/Images/chat2.jpg);
-    background-size: contain;
+    background-image: url(/Images/DOFUSVULBIS6.png);
+    background-size: 310px 500px;
 }
 #pr3 .devant{
-    background-image: url(/Images/chat3.jpg);
-    background-size: contain;
+    background-image: url(/Images/DOFUSOCRE4.png);
+    background-size: 310px 500px;
 }
 #pr4 .devant{
-    background-image: url(/Images/chat4.jpg);
-    background-size: contain;
+    background-image: url(/Images/DOFUSEMERAUDEINCROYABLE.png);
+    background-size: 310px 500px;
 }
 
 /* CSSCONTACT */
 .containcontact{
-    background-image: url(/Images/Technologies_web-scaled-e1622616972782.jpg);
+    background-image: url(/Images/fond-developpement-web-violet_76964-167.webp);
+    background-size: contain;
     height: 970px;
     color: white;
     display: flex;
