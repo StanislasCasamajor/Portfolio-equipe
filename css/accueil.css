@@ -23,7 +23,7 @@ html {
     left: 0;
     width: 100%;
     height: 1080px;
-    background: url(Images/gif/4NB4.gif) center center no-repeat fixed;
+    background: url(/Images/gif/4NB4.gif) center center no-repeat fixed;
     background-size: cover;
     filter: blur(20px);
     z-index: -1;
@@ -140,7 +140,7 @@ a {
 
 .containabout{
     height: 970px;
-    background-image: url(/Portfolio-equipe/Images/fond-developpement-web-violet_76964-167.webp);
+    background-image: url(/Images/fond-developpement-web-violet_76964-167.webp);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -170,7 +170,7 @@ a {
 /* CSSEXPERIENCE */
 
 .allcontain{
-    background-image: url(/Portfolio-equipe/Images/R.png);
+    background-image: url(/Images/R.png);
     display: flex;
     flex-direction: column;
     gap: 90px;
@@ -250,7 +250,7 @@ a {
 /* CSSPROJET */
 
 .containprojet{
-    background-image: url(/Portfolio-equipe/Images/chat4.jpg);
+    background-image: url(/Images/chat4.jpg);
     height: 970px;
     display: flex;
     flex-direction: column;
@@ -310,25 +310,25 @@ h2 {
 }
 #pr1 .devant{
 
-    background-image: url(/Portfolio-equipe/Images/chat1.jpg);
+    background-image: url(/Images/chat1.jpg);
     background-size: contain;
 }
 #pr2 .devant{
-    background-image: url(/Portfolio-equipe/Images/chat2.jpg);
+    background-image: url(/Images/chat2.jpg);
     background-size: contain;
 }
 #pr3 .devant{
-    background-image: url(/Portfolio-equipe/Images/chat3.jpg);
+    background-image: url(/Images/chat3.jpg);
     background-size: contain;
 }
 #pr4 .devant{
-    background-image: url(/Portfolio-equipe/Images/chat4.jpg);
+    background-image: url(/Images/chat4.jpg);
     background-size: contain;
 }
 
 /* CSSCONTACT */
 .containcontact{
-    background-image: url(/Portfolio-equipe/Images/Technologies_web-scaled-e1622616972782.jpg);
+    background-image: url(/Images/Technologies_web-scaled-e1622616972782.jpg);
     height: 970px;
     color: white;
     display: flex;
