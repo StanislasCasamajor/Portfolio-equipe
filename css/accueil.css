@@ -37,7 +37,8 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
 
 }
 
