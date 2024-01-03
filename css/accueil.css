@@ -466,4 +466,51 @@ textarea{
     padding-top: 1%;
 }
 
+/* Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .backGround {
+        height: auto;
+    }
 
+    .profilPic {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #animatedTitle {
+        font-size: 2em;
+    }
+
+    .pageContainer h2 {
+        font-size: 1.5em;
+    }
+
+    /* Add more styles for smaller screens */
+}
+
+/* Tablets and Small Screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .backGround {
+        height: 800px;
+    }
+
+    .profilPic {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    #animatedTitle {
+        font-size: 2.5em;
+    }
+
+    .pageContainer h2 {
+        font-size: 1.8em;
+    }
+
+    /* Add more styles for medium-sized screens */
+}
+
+/* Larger Screens (Desktops) */
+@media only screen and (min-width: 1025px) {
+    /* Keep the original styles for larger screens */
+}
