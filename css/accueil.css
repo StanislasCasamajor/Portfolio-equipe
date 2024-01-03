@@ -114,28 +114,36 @@ a {
 /* CSS About Me */
 
 #title {
-    margin-top: 5%;
-    margin-left: 5%;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .image {
     display: flex;
-    margin-right: 5%;
-    width: 150px;
+    width: 300px;
     flex-wrap: wrap;
-    padding-right: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    
 
 }
 
 #text {
     color: white;
-    margin-left: 10%;
-    margin-right: 20%;
-    font-size: 19px;
+    padding-left: 7%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 #bang {
     display: flex;
+    justify-content: space-between;
 }
 
 .containabout{
@@ -143,27 +151,40 @@ a {
     background-image: url(/Images/fond-developpement-web-violet_76964-167.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 7%;
 
 }
 
 .logo {
     display: flex;
     flex-direction: column;
-
+    height: 300px;
+    width: 300px;
+    margin-right: 210px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31, 38, 49, 0.7);
+    border-radius: 7%;
 }
 
 #bleu {
     padding-left: 16px;
+    
 }
 
 #orange {
     padding-left: 10px;
+    
 }
 
 #jaune {
     padding-left: 9px;
 }
-
+.imgabout{
+    margin-top: 40%;
+}
 
 
 

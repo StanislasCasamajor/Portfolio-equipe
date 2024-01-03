@@ -1,7 +1,8 @@
 body{
     font-family: 'Roboto','sans-serif';
     padding-top: 2%;
-    background-color: navajowhite;
+    background-color: black;
+    color: white;
 }
 
 .ImgTitre{
@@ -12,6 +13,7 @@ body{
     /* background-color: aqua; */
    margin-left: 6%;
    font-size: large;
+   font-weight: bold;
 }
 
 .Nomasu{
@@ -29,6 +31,8 @@ label{
 button{
     margin-left: 67%;
     border-radius: 2.2rem;
+    background-color: gray;
+    color: white
 
 }
 
